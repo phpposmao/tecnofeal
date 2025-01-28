@@ -1,0 +1,58 @@
+.container-contato {
+    display: flex;
+    justify-content: center;
+}
+
+.title-section-contato {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.title-section-contato h1 {
+    color: #323232;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.35rem;
+    font-weight: 900;
+}
+
+.titulo-container-contato {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #000000;
+    margin: 3rem 0 5rem 0;
+}
+
+.titulo-container-contato h2 {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.titulo-container-contato p {
+    line-height: 1.7rem;
+}
+
+.titulo-fundo-contato {
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+    opacity: 0.05;
+    color: #919191;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+
+@media (max-width: 500px) {
+    .titulo-container-contato {
+        width: 100%;
+    }
+
+    .titulo-fundo-contato {
+        top: 5rem;
+        left: 0.5rem;
+    }
+}

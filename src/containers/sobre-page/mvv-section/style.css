@@ -1,0 +1,111 @@
+.titulo {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h2 {
+    color: #323232;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.35rem;
+    font-weight: 900;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-l {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-mv {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem 2rem 0;
+    margin-right: 5rem;
+    color: #ffffff;
+}
+
+.content-mv h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.content-m {
+    margin-right: 5rem;
+}
+
+.content-r {
+    width: 30%;
+    padding: 2rem 3rem 2rem 0;
+    color: #ffffff;
+}
+
+.content-r h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.titulo-fundo-direita {
+    position: absolute;
+    top: 5rem;
+    right: 10rem;
+    opacity: 0.05;
+    color: white;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+@media (max-width: 500px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content-l {
+        width: 100%;
+    }
+
+    .content-mv {
+        flex-direction: column;
+        padding: 1rem;
+        margin-right: 0;
+        color: #ffffff;
+    }
+
+    .content-mv h3 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.25rem;
+        margin: 1rem 0 1rem 0;
+    }
+    
+    .content-m {
+        margin-right: 0;
+    }
+
+    .content-r {
+        width: 100%;
+        padding: 1rem;
+        color: #ffffff;
+    }
+
+    .content-r h3 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.25rem;
+        margin: 1rem 0 1rem 0;
+    }
+}

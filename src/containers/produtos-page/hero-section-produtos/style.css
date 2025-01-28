@@ -1,0 +1,7 @@
+.hero-container-produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background-color: #6D6C64;
+}

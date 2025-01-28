@@ -1,0 +1,215 @@
+/* Contêiner do logo principal */
+.logo-container {
+    position: absolute;
+    z-index: 40;
+    left: 0;
+    top: 0;
+    width: 16.6667%; /* 2/12 */
+    height: 40%; /* 2/5 */
+    background-color: #333333; /* bg-primary-dark-grey */
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-image {
+    margin-top: 35%;
+}
+
+/* Barra lateral esquerda */
+.side-bar {
+    position: absolute;
+    z-index: 30;
+    left: 0;
+    bottom: 0;
+    width: 8.3333%; /* 1/12 */
+    height: 100%;
+    background-color: #333333; /* bg-primary-dark-grey */
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Contêiner de texto vertical */
+.vertical-text-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    z-index: 40;
+    background-color: #333333; /* bg-primary-dark-grey */
+}
+
+.vertical-text-wrapper {
+    margin-bottom: 0.25rem; /* mb-1 */
+}
+
+.vertical-text {
+    margin-left: 2em;
+    margin-top: 100%;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.5rem; /* text-xs */
+    position: relative;
+    width: 0.25rem; /* w-1 */
+    transform: rotate(-90deg);
+    transform-origin: top;
+    letter-spacing: 0.35em; /* tracking-evmwider */
+}
+
+.vertical-line {
+    height: 1.5rem; /* h-6 */
+    width: 0.25rem; /* w-1 */
+    margin: 1rem; /* m-4 */
+    background-color: #1a1a1a; /* bg-alternative-dark-grey */
+}
+
+/* Contêiner do menu */
+.nav-container {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem; /* p-4 */
+}
+
+/* Logo no menu */
+.logo-header {
+    position: relative;
+    top: -0.5rem; /* -top-2 */
+    font-size: 1.5rem; /* text-2xl */
+}
+
+.logo-header-image {
+    width: 2rem; /* w-8 */
+    height: 0.5rem; /* h-2 */
+}
+
+/* Links do menu */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 0.875rem; /* text-sm */
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 2.5rem; /* mr-10 */
+    perspective: 1000px; /* perspective-distant */
+}
+
+.nav-item:last-child {
+    margin-right: 0; /* Sem margem para o último item */
+}
+
+.nav-link {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.125em; /* tracking-widest */
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: #b3b3b3; /* primary-grey */
+}
+
+/* Estilo do menu mobile */
+.mobile-menu-container {
+    display: none;
+    position: fixed; /* Mudança para fixo */
+    top: 1rem;
+    right: 1rem;
+    z-index: 50;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.hamburger-line {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+}
+
+.mobile-menu {
+    position: fixed; /* Mudança para fixo */
+    top: 3rem;
+    right: 1rem;
+    background-color: #333333;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 50;
+}
+
+.mobile-nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mobile-nav-item {
+    text-align: center;
+}
+
+.mobile-nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.mobile-nav-link:hover {
+    color: #b3b3b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu-container {
+        display: block;
+    }
+
+    .logo-container {
+        width: 0%; /* 2/12 */
+    }
+
+    .side-bar {
+        width: 0%;
+        height: 0%;
+    }
+
+    .vertical-text-container {
+        width: 0%;
+        height: 0%;
+    }
+
+    .vertical-text {
+        font-size: 0rem;
+    }
+}

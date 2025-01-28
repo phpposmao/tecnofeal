@@ -1,0 +1,21 @@
+.titulo-container-produtos h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.img-canto-produtos-dir {
+    width: 5%;
+    position: absolute;
+    top: 4em;
+    right: 27%;
+}
+
+@media (max-width: 500px) {
+    .img-canto-produtos-dir {
+        width: 20%;
+        top: 5em;
+        right: 2%;
+    }
+}

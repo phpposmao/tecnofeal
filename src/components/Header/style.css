@@ -1,0 +1,111 @@
+/* Fixar o menu no topo */
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos básicos do header */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+/* Estilo do logo */
+.logo {
+    height: 40px;
+    width: 10rem;
+}
+
+/* Links do menu (desktop) */
+.nav-links {
+    display: flex;
+    gap: 1.75rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links li:hover a {
+    color: #919191;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Menu no mobile (escondido por padrão) */
+.nav-links.nav-mobile-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #919191;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+/* Links no menu mobile */
+.nav-links.nav-mobile-open li {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Esconder menu para mobile por padrão */
+.nav-links {
+    display: none;
+}
+
+/* Botão hamburger */
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 24px;
+    height: 3px;
+    background-color: #333333;
+    transition: all 0.3s ease;
+}
+
+/* Animação do hamburger (abrir) */
+.hamburger .rotate-top {
+    transform: rotate(45deg) translateY(8px);
+}
+
+.hamburger .fade-out {
+    opacity: 0;
+}
+
+.hamburger .rotate-bottom {
+    transform: rotate(-45deg) translateY(-8px);
+}
+
+/* Tornar o menu visível em telas grandes */
+@media screen and (min-width: 1024px) {
+    .nav-links {
+        display: flex;
+        position: static;
+        flex-direction: row;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}

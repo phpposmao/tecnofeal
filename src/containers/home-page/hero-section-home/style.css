@@ -1,0 +1,40 @@
+/* Contêiner principal */
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Área principal ocupando toda a tela */
+.hero-main {
+    min-height: 100vh; /* min-h-screen */
+}
+
+/* Contêiner do vídeo */
+.video-container {
+    position: relative;
+    z-index: 0;
+}
+
+/* Wrapper do vídeo */
+.video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; /* h-full */
+    overflow: visible;
+    color: white; /* text-white */
+}
+
+/* Estilo do elemento de vídeo */
+.video-element {
+    width: 100%; /* Caso queira o vídeo responsivo */
+    height: auto;
+    display: block;
+    object-fit: cover; /* Faz o vídeo cobrir toda a área visível */
+}
+
+@media (max-width: 768px) {
+    .hero-main {
+        min-height: 30vh;
+    }
+}

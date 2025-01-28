@@ -1,0 +1,16 @@
+.button-container-projetos {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container-projetos button {
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+@media (max-width: 500px) {
+    .button-container-projetos button {
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+    }
+}

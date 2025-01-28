@@ -1,0 +1,100 @@
+/* Estilo principal da seção */
+.servicos-section {
+    background-color: #919191; /* bg-primary-grey */
+    position: relative;
+    padding: 4rem 0;
+    padding-top: 5rem;
+}
+
+/* Contêiner principal */
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+/* Cabeçalho da seção */
+.content {
+    margin-top: 2rem;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Itens de serviço */
+.service-item {
+    flex: 1 1 100%;
+    max-width: 33%;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.service-icon {
+    width: 25%;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+
+.service-item h4 {
+    margin: 1.25rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.service-item p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .services {
+        flex-direction: column;
+        font-size: 1rem;
+    }
+
+    .service-item {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    .service-item h4 {
+        font-size: 1rem;
+    }
+
+    .service-item p {
+        font-size: 0.875rem;
+    }
+
+    .service-icon {
+        width: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-item h4 {
+        font-size: 0.875rem;
+    }
+
+    .service-item p {
+        font-size: 0.75rem;
+    }
+
+    .service-icon {
+        width: 35%;
+    }
+}

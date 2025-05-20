@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: 0 0 0;
+  --background: 255 255 255;
+  --primary: 50 50 50;
+  --secondary: 217 217 217;
+}
+
+.dark {
+  --foreground: 255 255 255;
+  --background: 0 0 0;
+  --primary: 50 50 50;
+  --secondary: 217 217 217;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-light;
+  }
+}
+
+@layer components {
+  .elegant-button {
+    @apply px-6 py-3 border border-primary text-sm uppercase tracking-widest transition-all duration-300 hover:bg-primary hover:text-white font-light;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-light uppercase tracking-wider mb-8;
+  }
+
+  .section-subtitle {
+    @apply text-lg font-light text-neutral-600 dark:text-neutral-400 mb-6;
+  }
+
+  .fade-up {
+    @apply opacity-0 translate-y-10 transition-all duration-700 ease-out;
+  }
+
+  .fade-up.appear {
+    @apply opacity-100 translate-y-0;
+  }
+}

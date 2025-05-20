@@ -39,9 +39,8 @@ const raleway = Raleway({
 })
 
 export const metadata: Metadata = {
-  title: "Estúdio de Arquitetura",
-  description: "Site elegante para um estúdio de arquitetura",
-    generator: 'v0.dev'
+  title: "Tecnofeal",
+  description: "Tecnofeal"
 }
 
 export default function RootLayout({

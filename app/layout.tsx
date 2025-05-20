@@ -50,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body className={`${belfastGrotesk.className} font-sans antialiased`}>
+      <body className={`${raleway.variable} font-sans antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <Header />
           <main className="min-h-screen">{children}</main>

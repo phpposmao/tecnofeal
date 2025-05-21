@@ -44,7 +44,7 @@ export const newsCategories = ["Todos", "Prêmios", "Tendências", "Entrevistas"
 export const news = [
   {
     id: 1,
-    title: "Nosso projeto ganha prêmio",
+    title: "Nosso projeto ganha prêmio internacional",
     excerpt: "Reconhecimento pela inovação em design sustentável e soluções arquitetônicas de baixo impacto ambiental",
     image: "/image/tecnofeal-noticia.png",
     slug: "projeto-premio-internacional",

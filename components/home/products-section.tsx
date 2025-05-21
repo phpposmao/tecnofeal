@@ -57,20 +57,12 @@ export default function ProductsSection() {
             <div className="w-full md:w-1/2">
               <div className="space-y-6 text-lg">
                 <p className={`font-light text-neutral-600 ${montserrat.className} dark:text-neutral-400`}>
-                  Além de serviços de arquitetura e design, oferecemos uma linha exclusiva de produtos para complementar
-                  seus espaços. Cada peça é cuidadosamente projetada por nossa equipe, combinando estética refinada,
-                  funcionalidade e materiais de alta qualidade.
+                  A FEAL Produtos traduz exclusividade e inovação em sistemas de esquadrias e fachadas para projetos residenciais e corporativos que transcendem o comum.
                 </p>
 
                 <p className={`font-light text-neutral-600 ${montserrat.className} dark:text-neutral-400`}>
-                  Nossa coleção inclui mobiliário, iluminação e objetos decorativos que refletem nossa filosofia de
-                  design: linhas limpas, formas elegantes e atenção aos detalhes. Todos os produtos são fabricados por
-                  artesãos locais, apoiando a economia da região e garantindo um controle rigoroso de qualidade.
-                </p>
-
-                <p className={`font-light text-neutral-600 ${montserrat.className} dark:text-neutral-400`}>
-                  Seja para complementar um projeto arquitetônico ou para adicionar um toque especial ao seu espaço
-                  existente, nossos produtos são a escolha perfeita para quem valoriza design autêntico e atemporal.
+                  Nossas linhas são design, precisão e funcionalidade em perfeita harmonia com a arquitetura contemporânea.<br/>
+                  Complementos refinados e acessórios selecionados compõem um sistema que é sinônimo de elegância, performance e sofisticação.
                 </p>
 
                 <div className="pt-6 flex flex-col sm:flex-row gap-4">

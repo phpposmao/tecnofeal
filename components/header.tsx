@@ -48,7 +48,7 @@ export default function Header() {
         </button>
 
         <Link href="/" className="flex items-center">
-          <Image src="/image/logo-tecnofeal-nuevo.png" alt="Tecnofeal Logo" width={80} height={20} className="mr-2" />
+          {theme === "dark" ?<Image src="/image/logo-tecnofeal-nuevo.png" alt="Tecnofeal Logo" width={120} height={30} className="mr-2" /> : <Image src="/image/logo-tecnofeal-nuevo.png" alt="Tecnofeal Logo" width={120} height={30} className="mr-2" />}
         </Link>
 
         <button

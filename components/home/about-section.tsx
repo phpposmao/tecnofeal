@@ -46,7 +46,7 @@ export default function AboutSection() {
         <h2 className="section-title text-center mb-16">Sobre a Tecnofeal</h2>
 
         {/* Conteúdo com largura máxima de 1140px */}
-        <div className="max-w-[1140px] mx-auto">
+        <div className="max-w-[1040px] mx-auto">
           <div className="flex flex-col md:flex-row gap-12">
             {/* Topics */}
             <div className="w-full md:w-1/2 space-y-12">
@@ -55,16 +55,18 @@ export default function AboutSection() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-regular tracking-wider mb-2">Nossos<br/> destaques</h3>
-                <p className="font-light text-xl tracking-widest uppercase text-neutral-600 dark:text-neutral-400">
-                  Soluções inovadoras<br/>
-                  Tecnologia e durabilidade
+                <h3 className="text-2xl font-semibold tracking-wider mb-2">Nossos<br/> destaques</h3>
+                <p className="font-bold text-sm tracking-widest uppercase text-neutral-600 dark:text-neutral-400">
+                  <ul>
+                    <li>Soluções inovadoras</li>
+                    <li>Tecnologia e durabilidade</li>
+                  </ul>
                 </p>
               </div>
 
               <div>
-                <h3 className="text-2xl font-regular tracking-wider mb-2">Nossa<br/> Especialização</h3>
-                <p className="font-light text-xl tracking-widest uppercase text-neutral-600 dark:text-neutral-400">
+                <h3 className="text-2xl font-semibold tracking-wider mb-2">Nossa<br/> especialização</h3>
+                <p className="font-bold text-sm tracking-widest uppercase text-neutral-600 dark:text-neutral-400">
                   Esquadrias<br/>
                   de Alumínio<br/>
                   e Fachadas
@@ -75,15 +77,15 @@ export default function AboutSection() {
             {/* Extended Text */}
             <div className={`w-full ${montserrat.className} md:w-1/2`}>
               <div className="space-y-6">
-                <p className="font-light text-lg text-neutral-600 dark:text-neutral-400">
+                <p className="font-light text-base text-neutral-600 dark:text-neutral-400">
                   Com 37 anos de trajetória marcada pela inovação, a Tecnofeal é referência em esquadrias e fachadas personalizadas de alumínio. Somos especialistas em criar soluções que aliam sofisticação, funcionalidade e tecnologia, permitindo aplicações às mais diversas tipologias e necessidades do mercado.
                 </p>
 
-                <p className="font-light text-lg text-neutral-600 dark:text-neutral-400">
+                <p className="font-light text-base text-neutral-600 dark:text-neutral-400">
                   Nossas linhas exclusivas conectam tendência e identidade, transformando cada projeto em uma experiência única. Mais do que fornecer produtos, unimos design e rigor técnico, garantindo que cada obra se torne uma marca registrada de excelência e estilo.
                 </p>
 
-                <p className="font-light text-lg text-neutral-600 dark:text-neutral-400">
+                <p className="font-light text-base text-neutral-600 dark:text-neutral-400">
                   Descubra como nossas soluções em alumínio podem transformar seu projeto.
                 </p>
 

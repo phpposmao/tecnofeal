@@ -87,17 +87,17 @@ export const news = [
 export const services = [
   {
     id: 1,
-    title: "Acessoria Especializada",
-    description: "Auxiliamos na escolha da linha ideal para cada projeto, considerando as necessidades específicas.",
+    title: "Assessoria Especializada",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
   {
     id: 2,
     title: "Tecnologia e Inovação",
-    description: "Criamos soluções técnicas avançadas que tornam possíveis até os projetos mais desafiadores.",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
   {
     id: 3,
     title: "Personalização",
-    description: "Soluções sob medida que se adaptam às necessidades de empresas ou residências, unindo design e funcionalidade.",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum has been the.",
   },
 ]

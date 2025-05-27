@@ -44,24 +44,27 @@ export default function ProductsSection() {
         <div className="w-full h-px bg-neutral-300 dark:bg-neutral-700 mb-24"></div>
 
         {/* Conteúdo com largura máxima de 1140px */}
-        <div className="max-w-[1140px] mx-auto">
+        <div className="max-w-[1040px] mx-auto">
           <div className="flex flex-col md:flex-row gap-12 items-center">
             {/* Image */}
             <div className="w-full md:w-1/2">
-              <div className="relative h-[500px]">
-                <Image src="/image/logo-feal-produtos.png" alt="Nossos produtos" fill className="object-cover" />
+              <div className="relative flex">
+                <Image src="/image/produtos-imagem-ph.png" alt="Nossos produtos" width={400} height={40} className="object-cover" />
               </div>
             </div>
 
             {/* Text Content */}
             <div className="w-full md:w-1/2">
-              <div className="space-y-6 text-lg">
+              <div className="space-y-6 text-base">
                 <p className={`font-light text-neutral-600 ${montserrat.className} dark:text-neutral-400`}>
                   A FEAL Produtos traduz exclusividade e inovação em sistemas de esquadrias e fachadas para projetos residenciais e corporativos que transcendem o comum.
                 </p>
 
                 <p className={`font-light text-neutral-600 ${montserrat.className} dark:text-neutral-400`}>
-                  Nossas linhas são design, precisão e funcionalidade em perfeita harmonia com a arquitetura contemporânea.<br/>
+                  Nossas linhas são design, precisão e funcionalidade em perfeita harmonia com a arquitetura contemporânea.
+                </p>
+
+                <p className={`font-light text-neutral-600 ${montserrat.className} dark:text-neutral-400`}>
                   Complementos refinados e acessórios selecionados compõem um sistema que é sinônimo de elegância, performance e sofisticação.
                 </p>
 

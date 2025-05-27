@@ -4,12 +4,13 @@ import ServicesSection from "@/components/home/services-section"
 import AboutSection from "@/components/home/about-section"
 import ProductsSection from "@/components/home/products-section"
 import NewsSection from "@/components/home/news-section"
+import ProjectsSlider from "@/components/home/projects-slider"
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <ProjectsSection />
+      <ProjectsSlider />
       <ServicesSection />
       <AboutSection />
       <ProductsSection />

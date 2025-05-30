@@ -44,18 +44,18 @@ export const newsCategories = ["Todos", "Prêmios", "Tendências", "Entrevistas"
 export const news = [
   {
     id: 1,
-    title: "Nosso projeto ganha prêmio internacional",
-    excerpt: "Reconhecimento pela inovação em design sustentável e soluções arquitetônicas de baixo impacto ambiental",
+    title: "Inauguração do Centro Cultural",
+    excerpt: "Um novo espaço para a comunidade no centro da cidade que integra arte, cultura e arquitetura.",
     image: "/image/tecnofeal-noticia.png",
     slug: "projeto-premio-internacional",
-    category: "Prêmios",
+    category: "Eventos",
     date: "12 Mai 2025",
   },
   {
     id: 2,
-    title: "Nova parceria com construtora",
+    title: "Inauguração do Centro Cultural",
     excerpt:
-      "Expandindo nosso compromisso com o meio ambiente através de parcerias estratégicas com empresas inovadoras",
+      "Um novo espaço para a comunidade no centro da cidade que integra arte, cultura e arquitetura.",
     image: "/image/tecnofeal-noticia.png",
     slug: "parceria-construtora-sustentavel",
     category: "Eventos",
@@ -65,7 +65,7 @@ export const news = [
     id: 3,
     title: "Inauguração do Centro Cultural",
     excerpt:
-      "Um novo espaço para a comunidade no centro da cidade que integra arte, cultura e arquitetura contemporânea",
+      "Um novo espaço para a comunidade no centro da cidade que integra arte, cultura e arquitetura.",
     image: "/image/tecnofeal-noticia.png",
     slug: "inauguracao-centro-cultural",
     category: "Eventos",
@@ -73,12 +73,22 @@ export const news = [
   },
   {
     id: 4,
-    title: "Tendências de arquitetura para 2025",
+    title: "Inauguração do Centro Cultural",
     excerpt:
-      "Como estamos nos preparando para o futuro do design e quais inovações tecnológicas estão transformando o setor",
+      "Um novo espaço para a comunidade no centro da cidade que integra arte, cultura e arquitetura.",
     image: "/image/tecnofeal-noticia.png",
     slug: "tendencias-arquitetura-2025",
-    category: "Tendências",
+    category: "Prêmios",
+    date: "03 Abr 2025",
+  },
+  {
+    id: 4,
+    title: "Inauguração do Centro Cultural",
+    excerpt:
+      "Um novo espaço para a comunidade no centro da cidade que integra arte, cultura e arquitetura.",
+    image: "/image/tecnofeal-noticia.png",
+    slug: "tendencias-arquitetura-2025",
+    category: "Prêmios",
     date: "03 Abr 2025",
   },
 ]

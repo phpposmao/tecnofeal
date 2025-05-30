@@ -48,7 +48,7 @@ export default function Header() {
         </button>
 
         <Link href="/" className="flex items-center">
-          {theme === "dark" ?<Image src="/image/logo-tecnofeal-nuevo.png" alt="Tecnofeal Logo" width={120} height={30} className="mr-2" /> : <Image src="/image/logo-tecnofeal-nuevo.png" alt="Tecnofeal Logo" width={120} height={30} className="mr-2" />}
+          {theme === "dark" ?<Image src="/image/logo-tecnofeal-nuevo.png" alt="Tecnofeal Logo" width={120} height={30} className="mr-2" /> : <Image src="/image/logo-tecnofeal-preto.png" alt="Tecnofeal Logo" width={275} height={50} className="mr-2" />}
         </Link>
 
         <button
@@ -122,6 +122,15 @@ export default function Header() {
                   onClick={toggleMenu}
                 >
                   Notícias
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/faca-parte"
+                  className="text-3xl font-light uppercase tracking-widest hover:text-primary transition-colors"
+                  onClick={toggleMenu}
+                >
+                  Faça Parte
                 </Link>
               </li>
               <li>

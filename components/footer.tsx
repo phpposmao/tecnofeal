@@ -54,6 +54,11 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/faca-parte" className="hover:underline uppercase tracking-widest">
+                      Faça Parte
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/contato" className="hover:underline uppercase tracking-widest">
                       Contato
                     </Link>

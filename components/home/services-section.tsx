@@ -62,10 +62,10 @@ export default function ServicesSection() {
       </div>
       
       {/* Call-to-Action Banner */}
-      <div className="mt-16 bg-neutral-100 dark:bg-white py-6">
+      <div className="mt-16 bg-black dark:bg-black py-6">
         <div className="container max-w-[50%] mx-auto px-4">
           <div className="flex flex-col sm:flex-row items-center justify-between max-w-[1140px] mx-auto">
-            <p className="text-lg text-black font-bold mb-4 sm:mb-0">Gostaria de conhecer o nosso showroom?</p>
+            <p className="text-lg text-white dark:text-white font-bold mb-4 sm:mb-0">Gostaria de conhecer o nosso showroom?</p>
             <Link href="/contato">
               <Button className="bg-green-600 hover:bg-green-700 text-white border-green-600 hover:border-green-700">
                 Agende uma Visita

@@ -56,6 +56,27 @@ export default function ProjectsSlider() {
       image: "/image/projetos/residencial-wt.png",
       category: "Residencial Horizontal",
     },
+    {
+      id: 6,
+      title: "Lorem Ipsum",
+      description: "Lorem Ipsum, LI",
+      image: "/image/projetos/residencial-wt.png",
+      category: "Residencial Horizontal",
+    },
+    {
+      id: 7,
+      title: "Lorem Ipsum",
+      description: "Lorem Ipsum, LI",
+      image: "/image/projetos/residencial-wt.png",
+      category: "Residencial Horizontal",
+    },
+    {
+      id: 8,
+      title: "Lorem Ipsum",
+      description: "Lorem Ipsum, LI",
+      image: "/image/projetos/residencial-wt.png",
+      category: "Residencial Horizontal",
+    },
   ]
 
   const scrollPrev = useCallback(() => {
@@ -85,14 +106,14 @@ export default function ProjectsSlider() {
 
   return (
     <section className="py-24 bg-white dark:bg-[#323232]">
-      <div className="container mx-auto px-4">
+      <div className="max-w-[95%] mx-auto px-4">
         <h2 className="text-3xl font-light tracking-widest mb-16 text-center dark:text-white">NOSSOS PROJETOS</h2>
 
         <div className="relative">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex">
               {projects.map((project) => (
-                <div key={project.id} className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] lg:flex-[0_0_28%] pl-4">
+                <div key={project.id} className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] lg:flex-[0_0_20%] pl-4">
                   <div className="group relative overflow-hidden aspect-[4/5] bg-gray-100 dark:bg-black/80">
                     <Image
                       src={project.image || "/placeholder.svg"}

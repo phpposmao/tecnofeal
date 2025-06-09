@@ -82,7 +82,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className="text-3xl font-light uppercase tracking-widest hover:text-primary transition-colors"
+                  className="text-2xl font-light uppercase tracking-widest hover:text-primary transition-colors"
                   onClick={toggleMenu}
                 >
                   Home
@@ -91,7 +91,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/projetos"
-                  className="text-3xl font-light uppercase tracking-widest hover:text-primary transition-colors"
+                  className="text-2xl font-light uppercase tracking-widest hover:text-primary transition-colors"
                   onClick={toggleMenu}
                 >
                   Projetos
@@ -99,8 +99,17 @@ export default function Header() {
               </li>
               <li>
                 <Link
+                  href="/produtos"
+                  className="text-2xl font-light uppercase tracking-widest hover:text-primary transition-colors"
+                  onClick={toggleMenu}
+                >
+                  Produtos
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/servicos"
-                  className="text-3xl font-light uppercase tracking-widest hover:text-primary transition-colors"
+                  className="text-2xl font-light uppercase tracking-widest hover:text-primary transition-colors"
                   onClick={toggleMenu}
                 >
                   Serviços
@@ -109,7 +118,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/sobre"
-                  className="text-3xl font-light uppercase tracking-widest hover:text-primary transition-colors"
+                  className="text-2xl font-light uppercase tracking-widest hover:text-primary transition-colors"
                   onClick={toggleMenu}
                 >
                   Sobre Nós
@@ -118,7 +127,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/noticias"
-                  className="text-3xl font-light uppercase tracking-widest hover:text-primary transition-colors"
+                  className="text-2xl font-light uppercase tracking-widest hover:text-primary transition-colors"
                   onClick={toggleMenu}
                 >
                   Notícias
@@ -127,7 +136,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/faca-parte"
-                  className="text-3xl font-light uppercase tracking-widest hover:text-primary transition-colors"
+                  className="text-2xl font-light uppercase tracking-widest hover:text-primary transition-colors"
                   onClick={toggleMenu}
                 >
                   Faça Parte
@@ -136,7 +145,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/contato"
-                  className="text-3xl font-light uppercase tracking-widest hover:text-primary transition-colors"
+                  className="text-2xl font-light uppercase tracking-widest hover:text-primary transition-colors"
                   onClick={toggleMenu}
                 >
                   Contato

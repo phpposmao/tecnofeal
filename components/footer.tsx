@@ -39,6 +39,11 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/produtos" className="hover:underline uppercase tracking-widest">
+                      Produtos
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/servicos" className="hover:underline uppercase tracking-widest">
                       Serviços
                     </Link>

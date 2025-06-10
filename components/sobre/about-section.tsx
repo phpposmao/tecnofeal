@@ -51,7 +51,7 @@ export default function AboutSection() {
                 <h3 className={`text-3xl font-medium ${montserrat.className} tracking-wider mb-2`}>Transformamos ideias<br/> em obras que marcam</h3>
               </div>
 
-              <div className="space-x-12 md:space-y-12 flex md:flex-col">
+              <div className="space-x-12 md:space-x-0 md:space-y-12 flex md:flex-col">
                 <div>
                   <h3 className="text-lg md:text-2xl font-semibold tracking-wider mb-2">Nossos<br/> destaques</h3>
                   <p className="font-bold text-xs md:text-sm tracking-widest uppercase text-neutral-600 dark:text-neutral-400">

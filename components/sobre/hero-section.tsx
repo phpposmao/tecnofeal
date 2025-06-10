@@ -2,6 +2,12 @@
 
 import { useEffect, useRef } from "react"
 import { ChevronDown } from "lucide-react"
+import { Montserrat } from "next/font/google"
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+})
 
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -28,9 +34,11 @@ export default function HeroSection() {
         <source src="/video/sobre/VIDEO-BANNER-SOBRE.mp4" type="video/mp4" />
         Seu navegador não suporta vídeos HTML5.
       </video>
-
+      
       {/* Overlay para melhorar a legibilidade do texto */}
-      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="flex justify-center items-center align-middle relative h-full w-full bg-black/30">
+        <h2 className={`p-5 text-5xl  ${montserrat.className}`}><strong className="font-semibold">37 anos</strong> de uma trajetória<br/>marcada por excelência</h2>
+      </div>
 
       {/* Conteúdo centralizado */}
       <div className="relative h-full flex flex-col items-center justify-center text-white z-10 px-4">

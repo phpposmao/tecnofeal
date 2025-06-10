@@ -57,26 +57,26 @@ export default function SustentabilitySection() {
                   Comprometida com o futuro, a Tecnofeal adota práticas sustentáveis em todo o processo produtivo. Utilizamos alumínio — material 100% reciclável — e implementamos rotinas rigorosas de separação e descarte de resíduos, com rastreabilidade certificada.
                 </p>
 
-                <p className="font-regular text-2xl pt-10 text-neutral-800 dark:text-neutral-100">
+                <p className="font-regular text-2xl pt-10 text-neutral-800 dark:text-neutral-100 animate-fadeIn">
                   Nossas ações incluem:
                 </p>
               </div>
             </div>
 
             {/* Extended Text */}
-            <div className={`w-full ${montserrat.className} md:w-1/2 pl-12 pr-10`}>
+            <div className={`w-full ${montserrat.className} md:w-1/2 pl-12 pr-10 animate-fadeIn`}>
               <div className="space-y-6">
-                <div className="relative pl-20 p-5 flex justify-center border-neutral-400 border-2">
+                <div className="relative pl-20 p-5 flex justify-start border-neutral-400 border-2">
                   <Image src="/image/sobre/reciclagem.png" alt="Projetos Sociais" width={80} height={80} className="absolute -inset-x-10 inset-y-2"/>
-                  <p>Reciclagem de sucatas com reinvestimento interno</p>
+                  <p>Reciclagem de sucatas com<br/> reinvestimento interno</p>
                 </div>
-                <div className="relative pl-20 p-5 flex justify-center border-neutral-400 border-2">
+                <div className="relative pl-20 p-5 flex justify-start border-neutral-400 border-2">
                   <Image src="/image/sobre/reaproveitamento.png" alt="Projetos Sociais" width={80} height={80} className="absolute -inset-x-10 inset-y-2"/>
-                  <p>Reaproveitamento de água em testes de fachada</p>
+                  <p>Reaproveitamento de água<br/> em testes de fachada</p>
                 </div>
-                <div className="relative pl-20 p-5 flex justify-center border-neutral-400 border-2">
+                <div className="relative pl-20 p-5 flex justify-start border-neutral-400 border-2">
                   <Image src="/image/sobre/treinamentos.png" alt="Projetos Sociais" width={80} height={80} className="absolute -inset-x-10 inset-y-2"/>
-                  <p>Treinamentos contínuos para boas práticas ambientais</p>
+                  <p>Treinamentos contínuos para<br/> boas práticas ambientais</p>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function SustentabilitySection() {
         </div>
       </div>
       <div className="w-full text-center md:text-left bg-white">
-        <div className="p-10 md:p-0 md:flex gap-12 max-w-[1040px] mx-auto py-10">
+        <div className="p-10 md:p-0 md:flex gap-12 max-w-[1040px] mx-auto py-10 animate-fadeIn">
           <div className={`w-full ${montserrat.className} md:w-1/2 md:pr-12 pb-5 md:pb-0 flex justify-center items-center`}>
             <p className="text-black text-sm font-medium">Além disso, apoiamos projetos sociais voltados para a infância e contribuímos com iniciativas de tratamento de crianças e adolescentes com câncer. Sustentabilidade e responsabilidade social, para nós, é mais do que uma diretriz: é parte essencial daquilo que construímos.</p>
           </div>

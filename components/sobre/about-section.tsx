@@ -54,12 +54,12 @@ export default function AboutSection() {
               <div className="space-x-12 md:space-x-0 md:space-y-12 flex md:flex-col">
                 <div>
                   <h3 className="text-lg md:text-2xl font-semibold tracking-wider mb-2">Nossos<br/> destaques</h3>
-                  <p className="font-bold text-xs md:text-sm tracking-widest uppercase text-neutral-600 dark:text-neutral-400">
+                  <div className="font-bold text-xs md:text-sm tracking-widest uppercase text-neutral-600 dark:text-neutral-400">
                     <ul>
                       <li>Soluções inovadoras</li>
                       <li>Tecnologia e durabilidade</li>
                     </ul>
-                  </p>
+                  </div>
                 </div>
 
                 <div>

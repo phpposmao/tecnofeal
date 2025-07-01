@@ -25,7 +25,7 @@ export default function HeroSection() {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Vídeo de fundo */}
       <video ref={videoRef} className="absolute inset-0 w-full h-full object-cover" autoPlay muted loop playsInline>
-        <source src="/banner1280.mp4" type="video/mp4" />
+        <source src="/video/produtos/banner-PRODUTOS.mp4" type="video/mp4" />
         Seu navegador não suporta vídeos HTML5.
       </video>
 

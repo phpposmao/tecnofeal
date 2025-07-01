@@ -38,7 +38,7 @@ export default function FealProductsSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="py-24 bg-background fade-up">
+    <section ref={sectionRef} className="py-8 bg-background fade-up">
       <div className="container mx-auto px-4">
         {/* Conteúdo com largura máxima de 1140px */}
         <div className="max-w-[1040px] mx-auto">

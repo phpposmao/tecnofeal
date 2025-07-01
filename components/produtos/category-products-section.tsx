@@ -158,19 +158,19 @@ export default function CategoryProductsSection({ category, products, selectedPr
           <div className="space-y-6">
             <div className="relative pl-20 p-3 md:p-5 flex justify-start border-[#383838] border-2">
               <Image src="/image/produtos/indicacoes-icon1.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-              <p className="pl-10 text-sm">Estética minimalista com visual contínuo</p>
+              <p className="pl-20 text-sm">Estética minimalista com visual contínuo</p>
             </div>
             <div className="relative pl-20 p-3 md:p-5 flex justify-start border-[#383838] border-2">
               <Image src="/image/produtos/indicacoes-icon2.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-              <p className="pl-10 text-sm">Vãos médios com vista privilegiada</p>
+              <p className="pl-20 text-sm">Vãos médios com vista privilegiada</p>
             </div>
             <div className="relative pl-20 p-3 md:p-5 flex justify-start border-[#383838] border-2">
               <Image src="/image/produtos/indicacoes-icon3.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-              <p className="pl-10 text-sm">Ambientes integrados com ventilação cruzada</p>
+              <p className="pl-20 text-sm">Ambientes integrados com ventilação cruzada</p>
             </div>
             <div className="relative pl-20 p-3 md:p-5 flex justify-start border-[#383838] border-2">
               <Image src="/image/produtos/indicacoes-icon4.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-              <p className="pl-10 text-sm">Ideal em ambientes com paisagismo externo</p>
+              <p className="pl-20 text-sm">Ideal em ambientes com paisagismo externo</p>
             </div>
           </div>
         </div>
@@ -205,19 +205,19 @@ export default function CategoryProductsSection({ category, products, selectedPr
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="relative pl-20 p-5 md:p-2 flex justify-start items-center">
                 <Image src="/image/produtos/componentes-icon1.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-                <p className="pl-6 font-medium text-xs">Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar</p>
+                <p className="pl-24 font-medium text-xs">Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar</p>
               </div>
               <div className="relative pl-20 p-5 md:p-0 flex justify-start items-center">
                 <Image src="/image/produtos/componentes-icon2.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-                <p className="pl-6 font-medium text-xs">Compatibilidade com acessórios personalizados e projetos sob medida</p>
+                <p className="pl-24 font-medium text-xs">Compatibilidade com acessórios personalizados e projetos sob medida</p>
               </div>
               <div className="relative pl-20 p-5 md:p-0 flex justify-start items-center">
                 <Image src="/image/produtos/componentes-icon3.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-                <p className="pl-6 font-medium text-xs">Gaxetas técnicas que contribuem para isolamento termoacústico</p>
+                <p className="pl-24 font-medium text-xs">Gaxetas técnicas que contribuem para isolamento termoacústico</p>
               </div>
               <div className="relative pl-20 p-5 md:p-0 flex justify-start items-center">
                 <Image src="/image/produtos/componentes-icon4.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-                <p className="pl-6 font-medium text-xs">Integração com acabamentos sob medida e outros sistemas FEAL</p>
+                <p className="pl-24 font-medium text-xs">Integração com acabamentos sob medida e outros sistemas FEAL</p>
               </div>
             </div>
           </div>

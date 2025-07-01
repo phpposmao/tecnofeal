@@ -54,7 +54,7 @@ export default function ServicesSection() {
             {services.map((service) => (
               <div key={service.id} className="service-item">
                 <h3 className="text-xl font-normal uppercase dark:text-[#000000] tracking-wider mb-4 pr-5">{service.title}</h3>
-                <p className="font-medium text-sm text-neutral-600 dark:text-[#000000] pr-10">{service.description}</p>
+                <p className="font-medium text-xs text-neutral-600 dark:text-[#000000] pr-10">{service.description}</p>
               </div>
             ))}
           </div>

@@ -51,11 +51,15 @@ export default function ShowroomSection() {
                 </h2>
 
                 <p className={`font-medium text-sm text-[#000000] ${montserrat.className}`}>
-                  Na alameda mais prestigiada do design em São Paulo, nosso showroom é mais do que uma vitrine: é um espaço de imersão técnica e sensorial. Instalado na Alameda Gabriel Monteiro da Silva, ele oferece a experiência de conhecer nossas soluções em escala real, permitindo testes, visualizações e experimentações que aproximam a arquitetura da execução.
+                  No coração da decoração paulistana, nosso showroom na Alameda Gabriel Monteiro da Silva apresenta sistemas em escala real, com acabamentos aplicados e atendimento técnico especializado.
                 </p>
 
                 <p className={`font-medium text-sm text-[#000000] ${montserrat.className}`}>
-                  Aqui, arquitetos, engenheiros e clientes são recebidos por especialistas prontos para analisar cada detalhe do seu projeto — da escolha do sistema à definição dos acabamentos. Um ambiente onde inovação, atendimento exclusivo e alto padrão convergem em cada escolha.
+                  Aqui, você pode tocar, testar e visualizar de perto a performance das nossas soluções unindo estética, engenharia e experiência.
+                </p>
+                
+                <p className={`font-medium text-sm text-[#000000] ${montserrat.className}`}>
+                  Agende sua visita e transforme conceito em realidade.
                 </p>
               </div>
             </div>

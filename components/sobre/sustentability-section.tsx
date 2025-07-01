@@ -5,7 +5,6 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { Montserrat } from "next/font/google"
-import AOS from "aos"
 
 const montserrat = Montserrat({
   subsets: ["latin"],

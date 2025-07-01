@@ -98,16 +98,16 @@ export const services = [
   {
     id: 1,
     title: "Assessoria Especializada",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+    description: "Nosso time técnico atua em todas as etapas da escolha das soluções à instalação final. A orientação é consultiva, sempre baseada nas necessidades reais do seu projeto e no equilíbrio entre estética e funcionalidade. Trabalhamos ao seu lado para alcançar um resultado impecável.",
   },
   {
     id: 2,
-    title: "Tecnologia e Inovação",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+    title: "Tecnologia e Performance",
+    description: "Criamos sistemas de esquadrias e fachadas de alumínio com alta performance, estética refinada e durabilidade comprovada. Combinamos design minimalista e tecnologia avançada,entregando soluções que valorizam cada linha, ângulo e intenção do seu projeto.",
   },
   {
     id: 3,
     title: "Personalização",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy. Lorem Ipsum has been the.",
+    description: "Na Tecnofeal, cada obra é única, porque cada desafio também é.Somos especialistas em soluções sob medida para projetos exclusivos, com alto grau de exigência técnica e arquitetônica. Desenvolvemos sistemas completos, com caixilhos representados em escala real e compatibilidade total com a linguagem do projeto. Nosso domínio técnico nos permite ir além da execução.",
   },
 ]

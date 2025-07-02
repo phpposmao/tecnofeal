@@ -2,6 +2,8 @@
 
 import { useRouter, useSearchParams } from "next/navigation"
 import Image from "next/image"
+import Link from "next/link"
+import { ChevronLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 interface Category {
@@ -49,7 +51,15 @@ export default function CategoryProductsSection({ category, products, selectedPr
       {/* Product Selector */}
       <section className="py-8 bg-black text-white">
         <div className="max-w-[1140px] mx-auto px-4">
-          <div className="flex justify-center">
+          <div className="flex justify-between">
+            {/* Botão Voltar */}
+            <Link href="/produtos">
+              <button className="flex items-center space-x-2 px-4 py-2 bg-neutral-800 hover:bg-neutral-700 border border-neutral-600 hover:border-neutral-500 text-white text-sm font-light uppercase tracking-wider transition-all duration-300">
+                <ChevronLeft size={16} />
+              </button>
+            </Link>
+
+            {/* Product Selector */}
             <div className="flex items-center space-x-1">
               {products.map((product, index) => (
                 <div key={product.id} className="md:flex items-center">
@@ -156,19 +166,19 @@ export default function CategoryProductsSection({ category, products, selectedPr
             </p>
           </div>
           <div className="space-y-6">
-            <div className="relative pl-20 p-3 md:p-5 flex justify-start border-[#383838] border-2">
+            <div className="relative pl-20 p-3 md:p-[22px] flex justify-start border-[#383838] border-2">
               <Image src="/image/produtos/indicacoes-icon1.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
               <p className="pl-20 text-sm">Estética minimalista com visual contínuo</p>
             </div>
-            <div className="relative pl-20 p-3 md:p-5 flex justify-start border-[#383838] border-2">
+            <div className="relative pl-20 p-3 md:p-[22px] flex justify-start border-[#383838] border-2">
               <Image src="/image/produtos/indicacoes-icon2.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
               <p className="pl-20 text-sm">Vãos médios com vista privilegiada</p>
             </div>
-            <div className="relative pl-20 p-3 md:p-5 flex justify-start border-[#383838] border-2">
+            <div className="relative pl-20 p-3 md:p-[22px] flex justify-start border-[#383838] border-2">
               <Image src="/image/produtos/indicacoes-icon3.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
               <p className="pl-20 text-sm">Ambientes integrados com ventilação cruzada</p>
             </div>
-            <div className="relative pl-20 p-3 md:p-5 flex justify-start border-[#383838] border-2">
+            <div className="relative pl-20 p-3 md:p-[22px] flex justify-start border-[#383838] border-2">
               <Image src="/image/produtos/indicacoes-icon4.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
               <p className="pl-20 text-sm">Ideal em ambientes com paisagismo externo</p>
             </div>

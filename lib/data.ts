@@ -98,16 +98,21 @@ export const services = [
   {
     id: 1,
     title: "Assessoria Especializada",
-    description: "Nosso time técnico atua em todas as etapas da escolha das soluções à instalação final. A orientação é consultiva, sempre baseada nas necessidades reais do seu projeto e no equilíbrio entre estética e funcionalidade. Trabalhamos ao seu lado para alcançar um resultado impecável.",
+    description: "Nosso time técnico atua em todas as etapas da escolha das soluções à instalação final. Com orientação consultiva, nos baseamos nas necessidades reais do seu projeto e no equilíbrio entre estética e funcionalidade.",
   },
   {
     id: 2,
     title: "Tecnologia e Performance",
-    description: "Criamos sistemas de esquadrias e fachadas de alumínio com alta performance, estética refinada e durabilidade comprovada. Combinamos design minimalista e tecnologia avançada,entregando soluções que valorizam cada linha, ângulo e intenção do seu projeto.",
+    description: "Criamos sistemas de esquadrias e fachadas em alumínio com alta performance, estética refinada e durabilidade comprovada. Combinamos design e tecnologia, entregando soluções personalizadas para o seu projeto.",
   },
   {
     id: 3,
     title: "Personalização",
-    description: "Na Tecnofeal, cada obra é única, porque cada desafio também é.Somos especialistas em soluções sob medida para projetos exclusivos, com alto grau de exigência técnica e arquitetônica. Desenvolvemos sistemas completos, com caixilhos representados em escala real e compatibilidade total com a linguagem do projeto. Nosso domínio técnico nos permite ir além da execução.",
+    description: "Somos especialistas em soluções sob medida para projetos exclusivos, com alto grau de exigência técnica e arquitetônica. Desenvolvemos sistemas completos, com caixilhos representados em escala real e compatibilidade total com a linguagem do projeto. Para cada desafio, criamos a solução.",
   },
+  {
+    id: 4,
+    title: "Showroom Tecnofeal",
+    description: "No coração da decoração paulistana, nosso showroom situado na Alameda Gabriel Monteiro da Silva apresenta sistemas em escala real, com acabamentos aplicados e atendimento técnico especializado.",
+  }
 ]

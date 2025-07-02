@@ -42,7 +42,7 @@ export default function ServicesSection() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-start pl-12">
           {/* Title Section */}
-          <div className="w-full md:w-1/3 mb-12 md:mb-0 md:pr-12 ">
+          <div className="w-full md:w-1/4 mb-12 md:mb-0 md:pr-12 ">
             <h2 className={`text-3xl mb-4 ${montserrat.className} dark:text-[#000000] font-bold`}>Nossos<br/> diferenciais</h2>
             <p className={`text-sm font-medium ${montserrat.className} dark:text-[#000000]`}>
               Soluções personalizadas em<br/> esquadrias de alumínio que atendem<br/> ao seu projeto por completo.
@@ -50,10 +50,10 @@ export default function ServicesSection() {
           </div>
 
           {/* Services List */}
-          <div className={`w-full ${montserrat.className} md:w-2/3 grid grid-cols-1 md:grid-cols-3 gap-8`}>
+          <div className={`w-full ${montserrat.className} md:w-3/4 grid grid-cols-1 md:grid-cols-4 gap-8`}>
             {services.map((service) => (
               <div key={service.id} className="service-item">
-                <h3 className="text-xl font-normal uppercase dark:text-[#000000] tracking-wider mb-4 pr-5">{service.title}</h3>
+                <h3 className="text-lg font-normal uppercase dark:text-[#000000] tracking-wider mb-4 pr-5">{service.title}</h3>
                 <p className="font-medium text-xs text-neutral-600 dark:text-[#000000] pr-10">{service.description}</p>
               </div>
             ))}

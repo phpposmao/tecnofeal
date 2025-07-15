@@ -39,10 +39,7 @@ export default function AboutSection() {
 
   return (
     <section ref={sectionRef} className="bg-background fade-up flex flex-col">
-      <div>
-        <Image src="/image/feal-produtos-pessoas.png" alt="TSA Logo" width={3000} height={1250} className="mr-2" />
-      </div>
-      <div className="container mx-auto px-4 pt-12">
+      <div className="relative container mx-auto px-4 pt-12">
         <h2 className="section-title text-center mb-16">Sobre a Tecnofeal</h2>
 
         {/* Conteúdo com largura máxima de 1140px */}

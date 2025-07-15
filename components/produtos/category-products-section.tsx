@@ -97,15 +97,13 @@ export default function CategoryProductsSection({ category, products, selectedPr
 
               <div>
                 <h3 className="text-xl font-bold tracking-wider mb-4">
-                  Transparência que valoriza o essencial
+                  Equilíbrio entre leveza e desempenho
                 </h3>
                 <p className="font-light text-neutral-600 dark:text-neutral-400 mb-6">
-                  {selectedProduct.fullDescription}
+                  A Feal Slim Glass 50 é uma solução minimalista que equilibra transparência, resistência estrutural e design funcional. Ideal para projetos residenciais que desejam amplificar a luminosidade natural, criar ambientes integrados e garantir uma estética contínua com o mínimo de interferência visual.
                 </p>
                 <p className="font-light text-neutral-600 dark:text-neutral-400 mb-4">
-                  Suas linhas específicas são um diferencial integrado, sendo a combinação com outros sistemas,
-                  permitindo uma maior entrada de luz natural com perfis extremamente finos e sistemas, com uma
-                  descrição específica.
+                  Seu perfil delgado permite aplicações em vãos generosos, mantendo a leveza na percepção visual e a robustez necessária para suportar vidros de maiores espessuras com desempenho técnico garantido.
                 </p>
               </div>
 
@@ -149,7 +147,7 @@ export default function CategoryProductsSection({ category, products, selectedPr
         <div className={`w-full md:w-1/2 pb-5 md:pr-12`}>
           <div className="relative h-[450px]">
               <Image
-                src="/image/produtos/indicacoes-grande.png"
+                src="/image/produtos/indicacoes-tecnofeal.png"
                 alt={selectedProduct.name}
                 fill
                 className="object-cover"
@@ -165,22 +163,18 @@ export default function CategoryProductsSection({ category, products, selectedPr
               Projetos residenciais que priorizam:
             </p>
           </div>
-          <div className="space-y-6">
+          <div className="space-y-6 font-normal">
             <div className="relative pl-20 p-3 md:p-[22px] flex justify-start border-[#383838] border-2">
-              <Image src="/image/produtos/indicacoes-icon1.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-              <p className="pl-20 text-sm">Estética minimalista com visual contínuo</p>
+              <Image src="/image/produtos/indicacoes-neo1.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
+              <p className="pl-20 text-sm">Vãos <strong className="font-bold">médios a amplos</strong></p>
+            </div>
+            <div className="relative pl-20 p-3 md:p-[12px] flex justify-start border-[#383838] border-2">
+              <Image src="/image/produtos/indicacoes-neo2.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
+              <p className="pl-20 text-sm">Indicado para áreas <strong className="font-bold">sociais, fachadas, varandas e vãos</strong> com vista privilegiada</p>
             </div>
             <div className="relative pl-20 p-3 md:p-[22px] flex justify-start border-[#383838] border-2">
-              <Image src="/image/produtos/indicacoes-icon2.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-              <p className="pl-20 text-sm">Vãos médios com vista privilegiada</p>
-            </div>
-            <div className="relative pl-20 p-3 md:p-[22px] flex justify-start border-[#383838] border-2">
-              <Image src="/image/produtos/indicacoes-icon3.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-              <p className="pl-20 text-sm">Ambientes integrados com ventilação cruzada</p>
-            </div>
-            <div className="relative pl-20 p-3 md:p-[22px] flex justify-start border-[#383838] border-2">
-              <Image src="/image/produtos/indicacoes-icon4.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-              <p className="pl-20 text-sm">Ideal em ambientes com paisagismo externo</p>
+              <Image src="/image/produtos/indicacoes-neo3.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
+              <p className="pl-20 text-sm">Estética <strong className="font-bold">limpa e contínua</strong></p>
             </div>
           </div>
         </div>
@@ -205,11 +199,11 @@ export default function CategoryProductsSection({ category, products, selectedPr
           </div>
         </div>
       </section>
-      <section className="py-24 ">
+      <section className="py-24 bg-white">
         <div className="max-w-[1140px] mx-auto px-4">
           {/* Exclusive Components */}
-          <div className="">
-            <h3 className="text-2xl font-light uppercase tracking-wider text-center mb-12">
+          <div className="text-black">
+            <h3 className="text-3xl font-semibold uppercase tracking-wider text-center mb-12">
               Componentes Exclusivos Tecnofeal
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -227,7 +221,7 @@ export default function CategoryProductsSection({ category, products, selectedPr
               </div>
               <div className="relative pl-20 p-5 md:p-0 flex justify-start items-center">
                 <Image src="/image/produtos/componentes-icon4.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-                <p className="pl-24 font-medium text-xs">Integração com acabamentos sob medida e outros sistemas FEAL</p>
+                <p className="pl-24 font-medium text-xs">Acessórios exclusivos desenhados para a linha</p>
               </div>
             </div>
           </div>
@@ -244,7 +238,7 @@ export default function CategoryProductsSection({ category, products, selectedPr
               <p className="text-sm font-regular tracking-wider mb-2">Sistema {selectedProduct.name}<br/> para continuidade estética</p>
             </div>
             <div>
-              <p className="text-sm font-regular tracking-wider mb-2">Complementos como pinázios, ripados ou muxarabis, mantendo linguagem arquitetônica</p>
+              <p className="text-sm font-regular tracking-wider mb-2">Complementos externos como sistema camarão, brises, entre outros, mantendo a linguagem arquitetônica</p>
             </div>
           </div>
         </div>

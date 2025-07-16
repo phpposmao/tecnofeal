@@ -38,8 +38,8 @@ export default function TrajetoriaSection() {
   }, [])
 
   return (
-    <section className="py-24">
-        <div className="md:flex max-w-[1140px] mx-auto px-4">
+    <section className="py-12">
+        <div className="md:flex max-w-[95%] mx-auto px-4">
             {/* Extended Text */}
             <div className={`w-full md:w-1/2 pb-5 md:pr-12`}>
             <div className="relative h-[450px]">

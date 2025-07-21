@@ -20,6 +20,9 @@ interface Product {
   fullDescription: string
   price: string
   description: string
+  intdescrp:string
+  integration:string
+  titledesc:string
   technicalDetails: Array<{
     label: string
     value: string
@@ -91,19 +94,16 @@ export default function CategoryProductsSection({ category, products, selectedPr
               <div>
                 <h2 className="text-4xl font-medium uppercase tracking-wider mb-4">{selectedProduct.name}</h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-500 font-medium mb-4">
-                  Categoria: Minimalista | Tipologia: Correr e Fixo
+                  {selectedProduct.description}
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold tracking-wider mb-4">
-                  Equilíbrio entre leveza e desempenho
+                  {selectedProduct.titledesc}
                 </h3>
                 <p className="font-light text-neutral-600 dark:text-neutral-400 mb-6">
-                  A Feal Slim Glass 50 é uma solução minimalista que equilibra transparência, resistência estrutural e design funcional. Ideal para projetos residenciais que desejam amplificar a luminosidade natural, criar ambientes integrados e garantir uma estética contínua com o mínimo de interferência visual.
-                </p>
-                <p className="font-light text-neutral-600 dark:text-neutral-400 mb-4">
-                  Seu perfil delgado permite aplicações em vãos generosos, mantendo a leveza na percepção visual e a robustez necessária para suportar vidros de maiores espessuras com desempenho técnico garantido.
+                  {selectedProduct.fullDescription}
                 </p>
               </div>
 
@@ -207,6 +207,14 @@ export default function CategoryProductsSection({ category, products, selectedPr
               Componentes Exclusivos Tecnofeal
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {selectedProduct.openingTypes.map((type, index) => (
+                <div key={index} className="text-center">
+                  <div className="relative h-32 mb-4">
+                    <Image src={type.image || "/placeholder.svg"} alt={type.name} fill className="object-contain" />
+                  </div>
+                  <p className="text-sm font-medium lowercase tracking-wider">{type.name}</p>
+                </div>
+              ))}
               <div className="relative pl-20 p-5 md:p-2 flex justify-start items-center">
                 <Image src="/image/produtos/componentes-icon1.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
                 <p className="pl-24 font-medium text-xs">Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar</p>
@@ -235,10 +243,10 @@ export default function CategoryProductsSection({ category, products, selectedPr
               <h3 className="text-3xl font-semibold uppercase tracking-wider mb-8">Integra Com:</h3>
             </div>
             <div>
-              <p className="text-sm font-regular tracking-wider mb-2">Sistema {selectedProduct.name}<br/> para continuidade estética</p>
+              <p className="text-sm font-regular tracking-wider mb-2">{selectedProduct.integration}</p>
             </div>
             <div>
-              <p className="text-sm font-regular tracking-wider mb-2">Complementos externos como sistema camarão, brises, entre outros, mantendo a linguagem arquitetônica</p>
+              <p className="text-sm font-regular tracking-wider mb-2">{selectedProduct.intdescrp}</p>
             </div>
           </div>
         </div>

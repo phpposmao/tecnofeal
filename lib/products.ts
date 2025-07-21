@@ -85,6 +85,12 @@ export const products = [
     titledesc: "Equilíbrio entre leveza e desempenho",
     fullDescription:
       "A Feal Slim Glass 50 é uma solução minimalista que equilibra transparência, resistência estrutural e design funcional. Ideal para projetos residenciais que desejam amplificar a luminosidade natural, criar ambientes integrados e garantir uma estética contínua com o mínimo de interferência visual. Seu perfil delgado permite aplicações em vãos generosos, mantendo a leveza na percepção visual e a robustez necessária para suportar vidros de maiores espessuras com desempenho técnico garantido.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "23mm x 50mm" },
       { label: "Espessura do vidro", value: "12 a 20mm" },
@@ -115,6 +121,12 @@ export const products = [
     titledesc: "Amplitude com precisão técnica",
     fullDescription:
       "A Feal Slim Glass 60 é a escolha certa para projetos que exigem grandes vãos com transparência total e design. Seu perfil minimalista, aliado a resistência e performance do vidro, resultam na solução ideal para o seu projeto. Projetada para integrar arquitetura e paisagem com harmonia, a Slim Glass 60 suporta folhas de vidro de maior espessura e peso, mantendo suavidade no uso, por conta dos componentes e exclusivos Tecnofeal.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "30mm x 60mm" },
       { label: "Espessura do vidro", value: "12 a 52mm" },
@@ -146,6 +158,11 @@ export const products = [
     titledesc: "Robustez discreta para grandes soluções",
     fullDescription:
       "A Feal Slim 80 oferece uma solução arquitetônica para projetos que exigem maior resistência estrutural sem abrir mão da elegância visual. Com perfis mais robustos e design limpo, essa linha é ideal para aplicações em vãos amplos que demandam múltiplas tipologias de abertura e máxima performance técnica. Seu desenho versátil permite combinações como sistemas camarão e giro, garantindo fluidez nos movimentos e conforto térmico — tudo com o acabamento refinado característico da Tecnofeal.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Fecho com cilindro na mão de amigo", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "48mm x 80mm" },
       { label: "Espessura do vidro", value: "8 a 12mm" },
@@ -176,6 +193,12 @@ export const products = [
     titledesc: "Versatilidade elegante com alta performance",
     fullDescription:
       "A Feal Slim 100 combina robustez, precisão e estética refinada em um sistema versátil, ideal para projetos que exigem estrutura reforçada com vista intermediária da esquadria. Sua construção permite suportar folhas de vidro maiores com segurança, mantendo fluidez de movimento, vedação eficiente e linguagem arquitetônica limpa. É uma solução que atende perfeitamente ambientes internos e externos com aberturas largas, fachadas contínuas ou passagens generosas, com a sofisticação que define a linha Conceito Feal Slim.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "52mm x 100mm" },
       { label: "Espessura do vidro", value: "12 a 48mm" },
@@ -206,6 +229,12 @@ export const products = [
     titledesc: "Desempenho estrutural com estética refinada",
     fullDescription:
       "A Feal Slim 120 é uma solução desenvolvida para grandes vãos, folhas de vidro robustas e projetos com alto grau de exigência técnica e estética. Seu perfil profundo garante máxima resistência estrutural, mantendo o design elegante e a leveza visual características da linha Conceito. Ideal para fachadas residenciais de grande escala, a Slim 120 alia eficiência termoacústica, estanqueidade e liberdade de projeto, tornando-se uma escolha estratégica para arquitetos que buscam desempenho sem comprometer o visual.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "80mm x 120mm" },
       { label: "Espessura do vidro", value: "16 a 24mm" },
@@ -234,6 +263,12 @@ export const products = [
     description: "Linha Premium | Luxo e Sofisticação",
     fullDescription:
       "O Premium Elite 200 combina luxo e sofisticação com a mais alta tecnologia em esquadrias premium.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "200mm x 300mm" },
       { label: "Espessura do vidro", value: "Até 60 mm" },
@@ -260,6 +295,12 @@ export const products = [
     price: "R$ 9.800,00",
     description: "Linha Premium | Exclusividade Máxima",
     fullDescription: "O Premium Elite 250 oferece exclusividade máxima com acabamentos únicos e tecnologia de ponta.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "250mm x 350mm" },
       { label: "Espessura do vidro", value: "Até 64 mm" },
@@ -287,6 +328,12 @@ export const products = [
     description: "Linha Premium | Obra de Arte",
     fullDescription:
       "O Premium Elite 300 é uma verdadeira obra de arte em esquadrias, desenvolvido para projetos únicos e exclusivos.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "300mm x 400mm" },
       { label: "Espessura do vidro", value: "Até 68 mm" },
@@ -314,6 +361,12 @@ export const products = [
     description: "Linha Premium | Coleção Limitada",
     fullDescription:
       "O Premium Elite 350 é nossa coleção limitada, representando o ápice da engenharia e design em esquadrias.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "350mm x 450mm" },
       { label: "Espessura do vidro", value: "Até 72 mm" },
@@ -341,6 +394,12 @@ export const products = [
     description: "Linha Premium | Coleção Limitada",
     fullDescription:
       "O Premium Elite 350 é nossa coleção limitada, representando o ápice da engenharia e design em esquadrias.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "350mm x 450mm" },
       { label: "Espessura do vidro", value: "Até 72 mm" },
@@ -368,6 +427,12 @@ export const products = [
     description: "Linha Premium | Coleção Limitada",
     fullDescription:
       "O Premium Elite 350 é nossa coleção limitada, representando o ápice da engenharia e design em esquadrias.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "350mm x 450mm" },
       { label: "Espessura do vidro", value: "Até 72 mm" },
@@ -395,6 +460,12 @@ export const products = [
     description: "Linha Premium | Coleção Limitada",
     fullDescription:
       "O Premium Elite 350 é nossa coleção limitada, representando o ápice da engenharia e design em esquadrias.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "350mm x 450mm" },
       { label: "Espessura do vidro", value: "Até 72 mm" },
@@ -422,6 +493,12 @@ export const products = [
     description: "Linha Premium | Coleção Limitada",
     fullDescription:
       "O Premium Elite 350 é nossa coleção limitada, representando o ápice da engenharia e design em esquadrias.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "350mm x 450mm" },
       { label: "Espessura do vidro", value: "Até 72 mm" },
@@ -449,6 +526,12 @@ export const products = [
     description: "Linha Premium | Coleção Limitada",
     fullDescription:
       "O Premium Elite 350 é nossa coleção limitada, representando o ápice da engenharia e design em esquadrias.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "350mm x 450mm" },
       { label: "Espessura do vidro", value: "Até 72 mm" },
@@ -476,6 +559,12 @@ export const products = [
     description: "Linha Premium | Coleção Limitada",
     fullDescription:
       "O Premium Elite 350 é nossa coleção limitada, representando o ápice da engenharia e design em esquadrias.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "350mm x 450mm" },
       { label: "Espessura do vidro", value: "Até 72 mm" },
@@ -503,6 +592,12 @@ export const products = [
     description: "Linha Premium | Coleção Limitada",
     fullDescription:
       "O Premium Elite 350 é nossa coleção limitada, representando o ápice da engenharia e design em esquadrias.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "350mm x 450mm" },
       { label: "Espessura do vidro", value: "Até 72 mm" },
@@ -530,6 +625,12 @@ export const products = [
     description: "Linha Premium | Coleção Limitada",
     fullDescription:
       "O Premium Elite 350 é nossa coleção limitada, representando o ápice da engenharia e design em esquadrias.",
+    componentesExclusivos: [
+      { texto: "Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar", imagem: "/image/produtos/componentes-icon1.png" },
+      { texto: "Compatibilidade com acessórios personalizados e projetos sob medida", imagem: "/image/produtos/componentes-icon2.png" },
+      { texto: "Gaxetas em silicone que contribuem para estanqueidade.", imagem: "/image/produtos/componentes-icon3.png" },
+      { texto: "Acessórios exclusivos desenhados para a linha", imagem: "/image/produtos/componentes-icon4.png" },
+    ],
     technicalDetails: [
       { label: "Dimensões (Vista x profundidade)", value: "350mm x 450mm" },
       { label: "Espessura do vidro", value: "Até 72 mm" },

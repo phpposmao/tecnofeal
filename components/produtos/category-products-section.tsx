@@ -23,6 +23,10 @@ interface Product {
   intdescrp:string
   integration:string
   titledesc:string
+  componentesExclusivos: Array<{
+    texto:string
+    imagem:string
+  }>
   technicalDetails: Array<{
     label: string
     value: string
@@ -207,30 +211,12 @@ export default function CategoryProductsSection({ category, products, selectedPr
               Componentes Exclusivos Tecnofeal
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {selectedProduct.openingTypes.map((type, index) => (
-                <div key={index} className="text-center">
-                  <div className="relative h-32 mb-4">
-                    <Image src={type.image || "/placeholder.svg"} alt={type.name} fill className="object-contain" />
-                  </div>
-                  <p className="text-sm font-medium lowercase tracking-wider">{type.name}</p>
+              {selectedProduct.componentesExclusivos.map((detail, index) => (
+                <div key={index} className="relative pl-20 p-5 md:p-2 flex justify-start items-center">
+                  <Image src={detail.imagem} alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
+                  <p className="pl-24 font-medium text-xs">{detail.texto}</p>
                 </div>
               ))}
-              <div className="relative pl-20 p-5 md:p-2 flex justify-start items-center">
-                <Image src="/image/produtos/componentes-icon1.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-                <p className="pl-24 font-medium text-xs">Roldanas com rolamento inox blindado, que garantem suavidade ao abrir e fechar</p>
-              </div>
-              <div className="relative pl-20 p-5 md:p-0 flex justify-start items-center">
-                <Image src="/image/produtos/componentes-icon2.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-                <p className="pl-24 font-medium text-xs">Compatibilidade com acessórios personalizados e projetos sob medida</p>
-              </div>
-              <div className="relative pl-20 p-5 md:p-0 flex justify-start items-center">
-                <Image src="/image/produtos/componentes-icon3.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-                <p className="pl-24 font-medium text-xs">Gaxetas técnicas que contribuem para isolamento termoacústico</p>
-              </div>
-              <div className="relative pl-20 p-5 md:p-0 flex justify-start items-center">
-                <Image src="/image/produtos/componentes-icon4.png" alt="Projetos Sociais" width={80} height={80} className="absolute inset-x-0 inset-y-0"/>
-                <p className="pl-24 font-medium text-xs">Acessórios exclusivos desenhados para a linha</p>
-              </div>
             </div>
           </div>
         </div>
